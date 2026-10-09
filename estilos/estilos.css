@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+/*Estilo general*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background: linear-gradient(135deg, #0d1b2a 0%, #1b4965 50%, #0d1b2a 100%);
+    min-height: 100vh;
+}
+
+header {
+    background-color: #c41e3a;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffd700;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #1b4965;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #c41e3a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #162447 0%, #1f4068 100%);
+    border: 2px solid #ffd700;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffd700;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #162447;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #ffd700;
+    margin-top: auto;
+}
+/* Estilos específicos para la página de FotosGP */
+.masfotossec {
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: rgba(22, 36, 71, 0.6);
+    border-radius: 8px;
+    border: 2px solid #ffd700;
+}
+
+.masfotostext {
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.masfotosboton {
+    display: inline-block;
+    background-color: #c41e3a;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.masfotosboton:hover {
+    background-color: transparent;
+    border-color: #ffd700;
+    color: #ffd700;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos específicos para la página de Clasificación */
+
+.resultados {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: rgba(22, 36, 71, 0.8);
+    border-radius: 12px;
+    border: 3px solid #ffd700;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.resultados h2 {
+    color: #ffd700;
+    font-size: 2em;
+    margin: 0 0 30px 0;
+    letter-spacing: 2px;
+}
+
+.botonresultados {
+    display: inline-block;
+    background-color: #ffd700 !important;
+    color: #0d1b2a !important;
+    padding: 18px 45px !important;
+    text-decoration: none !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+    transition: all 0.3s ease !important;
+    border: 2px solid transparent !important;
+    letter-spacing: 1px !important;
+    margin: 0 !important;
+}
+
+.botonresultados:hover {
+    background-color: transparent !important;
+    border-color: #ffd700 !important;
+    color: #ffd700 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Estilos específicos para la página de Contacto */
+
+.contact-container {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: rgba(22, 36, 71, 0.8);
+    border-radius: 12px;
+    border: 3px solid #ffd700;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.contact-container h2 {
+    color: #ffd700;
+    font-size: 2em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.contact-container > p {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.email-link {
+    display: inline-block;
+    background-color: #c41e3a;
+    color: white;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+}
+
+.email-link:hover {
+    background-color: transparent;
+    border-color: #ffd700;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Funciones JavaScript*/
+nav ul li a.active {
+    font-weight: bold;
+    color: #6d4aff !important;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode header,
+.dark-mode footer,
+.dark-mode nav {
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode a {
+    color: #6d4aff;
+}
+
+/* Estilo para el saludo en el header */
+#greeting-badge {
+    color: #ffd700;
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.dark-mode #greeting-badge {
+    color: #ffd700;
+}
